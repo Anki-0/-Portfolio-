@@ -8,7 +8,7 @@
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass"
   },
-  "author": "Ankit",
+  "author": "Ankit-Singh",
   "license": "ISC",
   "devDependencies": {
     "concat": "^1.0.3",
