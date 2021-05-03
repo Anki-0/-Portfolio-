@@ -1,6 +1,6 @@
 # Protfolio
 
-![URL](https://github.com/Anki-0/-Portfolio-/blob/Ankit-Singh/img/content/Portfolio.jpg)
+![URL](https://github.com/Anki-0/-Portfolio-/blob/master/img/content/Portfolio.jpg)
 
 ## Getting Started
 
