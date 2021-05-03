@@ -1,0 +1,91 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 4.8rem 0;
+    transition: all .4s;
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        padding: 0 6.8rem;
+    }
+
+    &__logo {
+        margin-right: 9.8rem;
+        width: 14vw;
+        transition: all .4s;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .3s all;
+
+        use {
+            margin-right: 1.5rem;
+           path{
+            transition: all .3s;
+           }
+        }
+
+        &:hover {
+            color: $color-primary-dark;
+                use {
+                    path {
+                        fill: $color-primary-dark;
+                    }
+                }
+        }
+    }
+
+    &__social {
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        margin-right: auto;
+
+        &>* {
+            text-decoration: none;
+        }
+
+        &>*:not(:last-child) {
+            margin-right: 9rem;
+
+        }
+    }
+
+    &__btn {
+        position: relative;
+        border: none;
+        border-radius: 0;
+        background: none;
+        cursor: pointer;
+
+        &::after,
+        &::before {
+            content: "";
+            width: 3.5rem;
+            height: 2px;
+            background-color: #fff;
+            display: block;
+
+        }
+
+        &::before {
+            margin-bottom: .6rem;
+        }
+
+        &::after {
+            margin-top: .6rem;
+        }
+    }
+}

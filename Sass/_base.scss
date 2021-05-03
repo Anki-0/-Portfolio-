@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// COLOR VARIABLES
+$color-primary: #4c40f7;
+$color-primary-dark: #101029;
+
+$color-secondary: #111029;
+
+$color-pink-light-1: #ffbdbd;
+$color-grey-light-2: #aaa;
+
+$color-blue-dark-1: #01113b;
+
+// FONT VARIABLES
+$font-primary: 'Poppins', sans-serif;
+$font-display: 'Poppins', sans-serif;
+
+//responsive layout
+$bp-l: 89.9em; //1439px
+$bp-largest: 80em; //1280px
+$bp-large: 63.9em; //1023px
+$bp-medium: 48em; //768px
+$bp-small: 40em; //640px
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  outline: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  zoom: 100%;
+  overflow-x: hidden;
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  overflow-x: hidden;
+}

@@ -1,0 +1,27 @@
+@import 'base';
+@import 'typography';
+@import 'utility';
+
+@import './Main/main';
+@import './Main/main-cubes';
+
+@import './Details/details';
+@import './Details/details-figures';
+
+@import './Work/work';
+@import './Work/work-figures';
+
+@import './Header/header';
+@import 'responsive';
+
+@import './Case/case';
+@import './Case/case-figures';
+
+@import './Review/review';
+
+@import 'owl-nav';
+
+@import './Contacts/contact.scss';
+
+@import './Footer/footer';
+// @import 'aos-data';

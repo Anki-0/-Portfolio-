@@ -1,0 +1,17 @@
+.case {
+  &__figure {
+    position: absolute;
+
+    &:first-child {
+      top: 12.8rem;
+      left: calc(50% - 18.1rem);
+      width: 36.3rem;
+    }
+
+    &:nth-child(2) {
+      top: 33.5rem;
+      left: calc(50% - 140.6rem);
+      width: 120rem;
+    }
+  }
+}

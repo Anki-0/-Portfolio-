@@ -1,0 +1,54 @@
+.details {
+  &__figure {
+    position: absolute;
+    z-index: -1;
+    font-size: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+
+    &:first-child {
+      top: 20rem;
+      right: calc(50% - 47.4rem);
+      z-index: 2;
+      width: 24.4rem;
+      transition: all 0.4s;
+    }
+
+    &:nth-child(2) {
+      top: 74.4rem;
+      right: calc(50% - 45.2rem);
+      z-index: 3;
+      width: 37.1rem;
+      transition: all 0.4s;
+    }
+
+    &:nth-child(3) {
+      top: 12.9rem;
+      right: calc(50% - 127rem);
+      z-index: 1;
+      width: 126rem;
+      transition: all 0.4s;
+    }
+  }
+
+  &__pic {
+    width: 100%;
+  }
+
+  &__stage {
+    transition: all 0.4s;
+  }
+
+  &__info {
+    transition: all 0.4s;
+  }
+
+  &__title {
+    transition: all 0.4s;
+  }
+
+  &__btn {
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+}

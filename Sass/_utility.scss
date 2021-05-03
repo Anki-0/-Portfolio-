@@ -1,0 +1,66 @@
+.mb-sm {
+  margin-bottom: 2.4rem;
+
+  &-2 {
+    margin-bottom: 4.8rem;
+  }
+}
+
+.mb-md {
+  margin-bottom: 7.2rem;
+}
+
+.mb-lg {
+  margin-bottom: 11.5rem;
+}
+
+.mb-hg {
+  margin-bottom: 8.4rem;
+}
+
+.stage {
+  position: relative;
+  padding-left: 6.8rem;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: $color-primary;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    width: 5.2rem;
+    height: 2px;
+    background: $color-primary;
+  }
+
+  &__pink {
+    color: $color-pink-light-1;
+
+    &::before {
+      background: $color-pink-light-1;
+    }
+  }
+}
+
+.color {
+  &-black {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  &-primary {
+    color: $color-primary;
+  }
+
+  &-white {
+    color: #fff !important;
+  }
+}
+
+.center {
+  max-width: 133.4rem;
+  margin: 0 auto;
+  padding: 0 8.2rem;
+}

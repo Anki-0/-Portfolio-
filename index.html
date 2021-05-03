@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- <link rel="shortcut icon" type="image/png" href="#" /> -->
+
+  <link rel="stylesheet" href="./css/lib/owl-carousel.css" />
+
+  <title>Ankit Singh &mdash; Portfolio</title>
+
+  <script>
+    var viewportmeta = document.querySelector('meta[name="viewport"]');
+    if (viewportmeta) {
+      if (screen.width < 375) {
+        var newScale = screen.width / 375;
+        viewportmeta.content =
+          'width=375, minimum-scale=' +
+          newScale +
+          ', maximum-scale=1.0, user-scalable=no, initial-scale=' +
+          newScale +
+          '';
+      } else {
+        viewportmeta.content =
+          'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+      }
+    }
+  </script>
+</head>
+
+<body class="container">
+
+  <div class="main">
+    <div class="header">
+      <div class="header__content">
+        <div class="header__logo">
+          <img src="/img/logo.svg" alt="logo" class="header__img" />
+        </div>
+        <div class="header__social">
+          <a href="https://github.com/Anki-0/" class="header__link p" target="_blank">
+            <use>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                <path fill="#9f9fa9"
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </use>GitHub
+          </a>
+          <a href="https://www.instagram.com/ankit_singh_apr/" class="header__link p" target="_blank">
+            <use>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                <path fill="#9f9fa9"
+                  d="M12 0c2.056 0 4 1.944 4 4h0v8c0 2.056-1.944 4-4 4h0-8c-2.056 0-4-1.944-4-4h0V4c0-2.056 1.944-4 4-4h0zm0 2H4c-.935 0-2 1.065-2 2h0v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2h0V4c0-.935-1.065-2-2-2h0zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068a.96.96 0 1 1 0 1.92.96.96 0 1 1 0-1.92z">
+                </path>
+              </svg>
+            </use>Instagram
+          </a>
+        </div>
+        <button class="header__btn"></button>
+      </div>
+    </div>
+    <div class="main__bg">
+      <img class="main__pic" src="img/content/bg-main.jpg" alt="" />
+    </div>
+    <div class="main__center center">
+      <div class="main__content__wrap">
+        <div class="main__stage stage mb-sm">Ankit Singh</div>
+        <h1 class="main__title heading-1">
+          <span>Hello, my </span>
+          <span>name's Ankit.</span>
+          <span>I'm a Visual </span>
+          <span>Designer.</span>
+        </h1>
+        <a href="" class="scroll js-scroll">
+          <div class="scroll__icon">
+            <img src="/img/scroll.svg" alt="Scroll__icon" class="scroll__svg" />
+          </div>
+          <div class="scroll__text">Scroll Down</div>
+        </a>
+      </div>
+    </div>
+    <div class="main__view">
+      <div class="main__preview">
+        <img src="/img/content/main-pic-6.png" alt="main-pic-6" class="main__pic" />
+      </div>
+
+      <div class="main__preview">
+        <img src="/img/content/main-pic-1.png" alt="main-pic-1" class="main__pic js-parallax" data-scale="2.5"
+          data-orientation="up" />
+      </div>
+      <div class="main__preview">
+        <img src="/img/content/main-pic-2.png" alt="main-pic-2" class="main__pic js-parallax" data-scale="1.5"
+          data-orientation="up" />
+      </div>
+      <div class="main__preview">
+        <img src="/img/content/main-pic-3.png" alt="main-pic-3" class="main__pic" />
+      </div>
+      <div class="main__preview">
+        <img src="/img/content/main-pic-4.png" alt="main-pic-4" class="main__pic" />
+      </div>
+      <div class="main__preview">
+        <img src="/img/content/main-pic-5.png" alt="main-pic-5" class="main__pic js-parallax" data-scale="4.5"
+          data-orientation="up" />
+      </div>
+      <div class="main__preview">
+        <img src="/img/content/main-pic-7.png" alt="main-pic-7" class="main__pic js-parallax" data-scale="1.5"
+          data-orientation="down" />
+      </div>
+    </div>
+    <div class="main__figures">
+      <div class="main__figure">
+        <img src="./img/content/figure-1.png" alt="figure-1" class="main__pic js-parallax" data-scale="2.2"
+          data-orientation="down" />
+      </div>
+      <div class="main__figure">
+        <img src="./img/content/figure-2.png" alt="figure-1" class="main__pic js-parallax" data-scale="2.2"
+          data-orientation="up" />
+      </div>
+      <div class="main__figure">
+        <img src="./img/content/figure-3.png" alt="figure-1" class="main__pic" />
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------------mmain-end------------------------------------------------------------->
+
+  <!--------------------------------------details-start----------------------------------------------------------->
+  <div class="details" id="details">
+    <div class="details__center center">
+      <div class="details__head mb-lg">
+        <div class="details__stage stage mb-sm">What I Do</div>
+        <h3 class="details__info heading-3">
+          I enjoy creating delightful, <br />
+          human-centered digital experiences.
+        </h3>
+      </div>
+      <h2 class="details__title heading-2 heading-2--dark mb-md">
+        Think. Make. <br />
+        Solve.
+      </h2>
+      <div class="details__btn">
+        <button class="btn btn-purple">
+          <span class="btn__text">Contact Me</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" fill="none" viewBox="0 0 22 16">
+            <path fill-rule="evenodd"
+              d="M14.707.293a1 1 0 0 0-1.414 0 1 1 0 0 0 0 1.414L18.586 7H1a1 1 0 1 0 0 2h17.586l-5.293 5.293a1 1 0 0 0 1.414 1.414l7-7c.183-.183.28-.419.292-.659L22 8m-.076-.383c-.049-.118-.121-.228-.217-.324l-7-7m7.217 7.324c.048.115.075.241.076.374z"
+              fill="#fff"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="details__container">
+        <div class="details__slider owl-carousel js-slider-details">
+          <div class="details__item">
+            <div class="details__preview details__preview_cursor">
+              <div class="details__img">
+                <img class="details__pic" src="img/content/cursor.png" alt="" />
+              </div>
+            </div>
+            <h5 class="details__category heading-5 mb-sm">User Interface</h5>
+            <div class="details__text">
+              We have got quite a few already made templates for better
+              project management that you can use now.
+            </div>
+            <div class="details__btn">
+              <button class="btn btn__dark">Find out more</button>
+            </div>
+          </div>
+
+          <div class="details__item">
+            <div class="details__preview details__preview_hand">
+              <div class="details__img">
+                <img class="details__pic" src="img/content/hand.png" alt="" />
+              </div>
+            </div>
+            <h5 class="details__category heading-5 mb-sm">User Experience</h5>
+            <div class="details__text">
+              We have got quite a few already made templates for better
+              project management that you can use now.
+            </div>
+            <div class="details__btn">
+              <button class="btn btn__dark">Find out more</button>
+            </div>
+          </div>
+
+          <div class="details__item">
+            <div class="details__preview details__preview_color">
+              <div class="details__img">
+                <img class="details__pic" src="img/content/color-picker.png" alt="" />
+              </div>
+            </div>
+            <h5 class="details__category heading-5 mb-sm">UI Design Kit</h5>
+            <div class="details__text">
+              We have got quite a few already made templates for better
+              project management that you can use now.
+            </div>
+            <div class="details__btn">
+              <button class="btn btn__dark">Find out more</button>
+            </div>
+          </div>
+        </div>
+
+        <a href="" class="details__contact">Contact Me</a>
+      </div>
+    </div>
+    <div class="details__figures">
+      <div class="details__figure">
+        <img src="/img/content/figure-1.png" alt="details-figure" class="details__pic js-parallax" data-scale="2"
+          data-orientation="down" />
+      </div>
+      <div class="details__figure">
+        <img src="/img/content/figure-2.png" alt="details-figure" class="details__pic js-parallax" data-scale="2"
+          data-orientation="up" />
+      </div>
+      <div class="details__figure">
+        <img src="/img/content/figure-3.png" alt="details-figure" class="details__pic js-parallax" data-scale="1.2"
+          data-orientation="up" />
+      </div>
+    </div>
+  </div>
+
+  <!--------------------------------details-End--------------------------------------------------------------------->
+  <!----------------------------WOrk--------------------------------------------------------->
+  <div class="work">
+    <div class="work__circle"></div>
+    <div class="work__center">
+      <div class="work__wrap">
+        <div class="work__stage stage stage__pink mb-sm">Who I Work With</div>
+        <div class="work__title heading-1 mb-sm-2">
+          Art Direction for Global Leading Brands.
+        </div>
+        <div class="work__text">
+          I research and create breakthrough - delightful ideas, leading
+          visual designers.
+        </div>
+        <a href="" class="scroll">
+          <div class="scroll__icon">
+            <img src="/img/scroll.svg" alt="Scroll__icon" class="scroll__svg" />
+          </div>
+          <div class="scroll__text color-white">Scroll Down</div>
+        </a>
+      </div>
+    </div>
+    <div class="work__preview">
+      <img src="/img/content/work-cube.png" alt="work-cube" class="work__pic js-parallax" data-scale="2"
+        data-orientation="down" />
+    </div>
+    <div class="work__figures">
+      <div class="work__figure">
+        <img src="./img/content/work-cube-1.png" alt="work-cude-1" class="work__pic js-parallax" data-scale="1.3"
+          data-orientation="up" />
+      </div>
+      <div class="work__figure">
+        <img src="/img/content/work-cube-2.png" alt="work-cude-2" class="work__pic js-parallax" data-scale="1.5"
+          data-orientation="up left" />
+      </div>
+      <div class="work__figure">
+        <img src="/img/content/work-cube-3.png" alt="work-cude-3" class="work__pic js-parallax" data-scale="1.3"
+          data-orientation="up right" />
+      </div>
+      <div class="work__figure">
+        <img src="/img/content/work-cube-4.png" alt="work-cude-4" class="work__pic" />
+      </div>
+      <div class="work__figure">
+        <img src="/img/content/work-cube-5.png" alt="work-cude-5" class="work__pic js-parallax" data-scale="1.1"
+          data-orientation="left" />
+      </div>
+      <div class="work__figure">
+        <img src="/img/content/work-cube-6.png" alt="work-cude-6" class="work__pic js-parallax" data-scale="1.2"
+          data-orientation="right" />
+      </div>
+      <div class="work__figure">
+        <img src="/img/content/work-cube-7.png" alt="work-cude-7" class="work__pic js-parallax" data-scale="1.2"
+          data-orientation="down" />
+      </div>
+    </div>
+  </div>
+
+  <!------------------------Wrapper------------------------------------------------------------>
+  <div class="wrapper wrapper_gradient">
+    <div class="case case--main">
+      <div class="case__center center">
+        <div class="case__stage stage">Portfolio</div>
+        <div class="case__title heading-1 heading-2--dark mb-md">
+          Look at My <br />Products.
+        </div>
+        <div class="case__nav mb-hg">
+          <div class="case__link active">Website</div>
+          <div class="case__link">Illustration</div>
+          <div class="case__link">Mobile</div>
+        </div>
+        <div class="case__list js-owl owl-carousel js-slider-cases">
+          <a href="" class="case__item">
+            <div class="case__preview">
+              <img src="./img/content/cases-pic-1.jpg" alt="case pic 1" class="case__pic" />
+              <div class="case__box">
+                <p class="case__box--text">Case<br />Study</p>
+              </div>
+            </div>
+            <div class="case__body">
+              <h4 class="case__info heading-4">Collab Landing Page</h4>
+              <div class="case__text">UI Kit, Coded Template</div>
+            </div>
+          </a>
+          <a href="" class="case__item">
+            <div class="case__preview">
+              <img src="./img/content/cases-pic-2.jpg" alt="case pic 1" class="case__pic" />
+              <div class="case__box">
+                <p class="case__box--text">Case<br />Study</p>
+              </div>
+            </div>
+            <div class="case__body">
+              <h4 class="case__info heading-4">Collab Landing Page</h4>
+              <div class="case__text">UI Kit, Coded Template</div>
+            </div>
+          </a>
+          <a href="" class="case__item">
+            <div class="case__preview">
+              <img src="./img/content/cases-pic-3.jpg" alt="case pic 1" class="case__pic" />
+              <div class="case__box">
+                <p class="case__box--text">Case<br />Study</p>
+              </div>
+            </div>
+            <div class="case__body">
+              <h4 class="case__info heading-4">Collab Landing Page</h4>
+              <div class="case__text">UI Kit, Coded Template</div>
+            </div>
+          </a>
+          <a href="" class="case__item">
+            <div class="case__preview">
+              <img src="./img/content/cases-pic-4.jpg" alt="case pic 1" class="case__pic" />
+              <div class="case__box">
+                <p class="case__box--text">Case<br />Study</p>
+              </div>
+            </div>
+            <div class="case__body">
+              <h4 class="case__info heading-4">Collab Landing Page</h4>
+              <div class="case__text">UI Kit, Coded Template</div>
+            </div>
+          </a>
+          <a href="" class="case__item">
+            <div class="case__preview">
+              <img src="./img/content/cases-pic-5.jpg" alt="case pic 1" class="case__pic" />
+              <div class="case__box">
+                <p class="case__box--text">Case<br />Study</p>
+              </div>
+            </div>
+            <div class="case__body">
+              <h4 class="case__info heading-4">Collab Landing Page</h4>
+              <div class="case__text">UI Kit, Coded Template</div>
+            </div>
+          </a>
+          <a href="" class="case__item">
+            <div class="case__preview">
+              <img src="./img/content/cases-pic-6.jpg" alt="case pic 1" class="case__pic" />
+              <div class="case__box">
+                <p class="case__box--text">Case<br />Study</p>
+              </div>
+            </div>
+            <div class="case__body">
+              <h4 class="case__info heading-4">Collab Landing Page</h4>
+              <div class="case__text">UI Kit, Coded Template</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="case__figures">
+        <div class="case__figure">
+          <img src="./img/content/figure-2.png" alt="case pic" class="case__pic js-parallax" data-scale="2"
+            data-orientation="down" />
+        </div>
+
+        <div class="case__figure">
+          <img src="./img/content/figure-3.png" alt="case pic" class="case__pic js-parallax" data-scale="1.8"
+            data-orientation="down" />
+        </div>
+      </div>
+    </div>
+    <div class="review" id="review">
+      <div class="review__center center">
+        <div class="review__stage stage">What People Say</div>
+        <div class="review__title title heading-1 heading-1--dark">
+          Trusted by<br />Clients.
+        </div>
+
+        <div class="review__container">
+          <div class="review__slider owl-carousel js-slider-review">
+            <div class="review__item">
+              <div class="review__text">
+                <p>
+                  &quot;Folio Designer is a clean and creative landing that
+                  matches with any freelancer or designer, you can easily to
+                  build page in Sketch or Figma.&quot;
+                </p>
+              </div>
+              <div class="review__author">
+                <div class="review__ava">
+                  <img src="./img/content/ava-1.jpg" alt="" class="ava" />
+                </div>
+                <div class="review__details">
+                  <div class="review__man heading-5">Ankit Singh</div>
+                  <div class="review__company">Ankit</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="review__item">
+              <div class="review__text">
+                <p>
+                  &quot;Folio Designer is a clean and creative landing that
+                  matches with any freelancer or designer, you can easily to
+                  build page in Sketch or Figma.&quot;
+                </p>
+              </div>
+              <div class="review__author">
+                <div class="review__ava">
+                  <img src="./img/content/ava-1.jpg" alt="" class="ava" />
+                </div>
+                <div class="review__details">
+                  <div class="review__man heading-5">Ankit Singh</div>
+                  <div class="review__company">Ankit</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="review__item">
+              <div class="review__text">
+                <p>
+                  &quot;Folio Designer is a clean and creative landing that
+                  matches with any freelancer or designer, you can easily to
+                  build page in Sketch or Figma.&quot;
+                </p>
+              </div>
+              <div class="review__author">
+                <div class="review__ava">
+                  <img src="./img/content/ava-1.jpg" alt="" class="ava" />
+                </div>
+                <div class="review__details">
+                  <div class="review__man heading-5">Ankit Singh</div>
+                  <div class="review__company">Ankit</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="review__item">
+              <div class="review__text">
+                <p>
+                  &quot;Folio Designer is a clean and creative landing that
+                  matches with any freelancer or designer, you can easily to
+                  build page in Sketch or Figma.&quot;
+                </p>
+              </div>
+              <div class="review__author">
+                <div class="review__ava">
+                  <img src="./img/content/ava-1.jpg" alt="" class="ava" />
+                </div>
+                <div class="review__details">
+                  <div class="review__man heading-5">Ankit Singh</div>
+                  <div class="review__company">Ankit</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="revew__bg"></div>
+    </div>
+    <div class="wrapper-dark">
+      <div class="contact">
+        <div class="contacts__center center">
+          <div class="contacts__container">
+            <div class="contact__wrap">
+              <div class="contacts__stage stage mb-sm">Say hello 👋</div>
+              <div class="contacts__title heading-1 heading-1--dark mb-sm-2">Let’s Work <br> Together.</div>
+              <div class="contacts__info">I’d love to meet up with you
+                to discuss your venture, and potential
+                collaborations.</div>
+            </div>
+            <div class="contacts__row">
+              <div class="contacts__details">
+                <div class="contacts__line">
+                  <div class="contacts__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" fill="none" viewBox="0 0 18 15">
+                      <path fill-rule="evenodd"
+                        d="M2.422.267C1.244.267.289 1.222.289 2.4v9.956c0 1.178.955 2.133 2.133 2.133h12.8c1.178 0 2.133-.955 2.133-2.133V2.4c0-1.178-.955-2.133-2.133-2.133h-12.8zM1.711 2.4a.71.71 0 0 1 .711-.711h12.8a.71.71 0 0 1 .711.711v9.956a.71.71 0 0 1-.711.711h-12.8a.71.71 0 0 1-.711-.711V2.4zm2.636.919a.71.71 0 1 0-1.006 1.006l4.978 4.978a.71.71 0 0 0 1.006 0l4.978-4.978a.71.71 0 1 0-1.006-1.006L8.822 7.794 4.347 3.319zm1.422 5.689a.71.71 0 0 1 0 1.006l-1.422 1.422a.71.71 0 1 1-1.006-1.006l1.422-1.422a.71.71 0 0 1 1.006 0zm7.111 0a.71.71 0 1 0-1.006 1.006l1.422 1.422a.71.71 0 1 0 1.006-1.006l-1.422-1.422z"
+                        fill="#4c40f7"></path>
+                    </svg>
+                  </div>
+                  <div class="contacts__text">singhankit25apr@gamil.com</div>
+                </div>
+                <div class="contacts__line">
+                  <div class="contacts__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
+                      <path fill-rule="evenodd"
+                        d="M9.273.85a.71.71 0 0 0-.901 0L.55 7.25a.71.71 0 0 0 .901 1.101l7.372-6.032 5.85 4.786a.71.71 0 1 0 .901-1.101L9.273.85zM3.845 9.222a.71.71 0 1 0-1.422 0v7.111a.71.71 0 0 0 .711.711h6.4a.71.71 0 1 0 0-1.422H3.845v-6.4zm9.932 0a2.04 2.04 0 0 0-2.11 2.008c.001.243.112.6.358 1.053.239.44.567.901.908 1.328l.867.996.867-.996c.341-.427.669-.887.908-1.328.246-.453.357-.81.358-1.053a2.04 2.04 0 0 0-2.11-2.008h-.047zm2.868 2.004h.711c0 .599-.245 1.21-.531 1.736-.294.542-.678 1.075-1.047 1.537l-1.018 1.163-.336.344-.096.095-.027.026-.007.007-.003.003-.491-.514-.491.514-.003-.003-.007-.007-.026-.026-.096-.095-.336-.344-1.017-1.163c-.37-.462-.753-.995-1.047-1.537-.286-.526-.531-1.138-.531-1.736v-.01c.012-.931.399-1.817 1.072-2.46.668-.637 1.561-.981 2.483-.957.922-.024 1.816.32 2.483.957.673.643 1.06 1.529 1.072 2.46l-.711.01zm-3.335 4.911c0 0 0 0 .491-.514l.491.514a.71.71 0 0 1-.982 0zm.491-4.07a.71.71 0 1 0 0-1.422.71.71 0 1 0 0 1.422z"
+                        fill="#4c40f7"></path>
+                    </svg>
+                  </div>
+                  <div class="contacts__text">358/2/A R.D Marg Gali Number 3</div>
+                </div>
+                <div class="contacts__line">
+                  <div class="contacts__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18">
+                      <path fill-rule="evenodd"
+                        d="M6.689 2.978a.71.71 0 0 1 .711-.711h7.111a.71.71 0 0 1 .711.711v4.267a.71.71 0 0 1-.711.711H8.822a.71.71 0 0 0-.318.075l-1.815.908V2.978zM7.4.844c-1.178 0-2.133.955-2.133 2.133v7.111a.71.71 0 0 0 1.029.636L8.99 9.378h5.521c1.178 0 2.133-.955 2.133-2.133V2.978c0-1.178-.955-2.133-2.133-2.133H7.4zM2.422 2.267C1.244 2.267.289 3.222.289 4.4v11.378c0 1.178.955 2.133 2.133 2.133h7.822c1.178 0 2.133-.955 2.133-2.133V10.8a.71.71 0 1 0-1.422 0v4.978a.71.71 0 0 1-.711.711H2.422a.71.71 0 0 1-.711-.711V4.4a.71.71 0 0 1 .711-.711h1.422a.71.71 0 1 0 0-1.422H2.422z"
+                        fill="#4c40f7"></path>
+                    </svg>
+                  </div>
+                  <div class="contacts__text">+91 8802039265</div>
+                </div>
+              </div>
+              <div class="contacts__form">
+                <div class="contacts__field field">
+                  <div class="field__wrap">
+                    <input type="text" class="field__input" name="name" placeholder="Name">
+                    <div class="field__icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18">
+                        <path fill-rule="evenodd"
+                          d="M8.5.875a4.5 4.5 0 0 0-4.5 4.5v2a4.5 4.5 0 1 0 9 0v-2a4.5 4.5 0 0 0-4.5-4.5zM6 5.375a2.5 2.5 0 1 1 5 0v2a2.5 2.5 0 1 1-5 0v-2zM3.547 12.25a1 1 0 0 0-.969-1.75A5 5 0 0 0 0 14.875v2a1 1 0 0 0 1 1h15a1 1 0 0 0 1-1v-2a5 5 0 0 0-2.578-4.375 1 1 0 1 0-.969 1.75A3 3 0 0 1 15 14.875v1H2v-1a3 3 0 0 1 1.547-2.625z"
+                          fill="#111029"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts__field field">
+                  <div class="field__wrap">
+                    <input type="email" class="field__input" name="email" placeholder="Email">
+                    <div class="field__icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 17 17">
+                        <path fill-rule="evenodd"
+                          d="M16.707.668a1 1 0 0 1 .238 1.033l-5 14.5a1 1 0 0 1-1.853.093l-3-6.5a1 1 0 0 1 .201-1.126l3-3a1 1 0 0 1 1.414 1.414L9.2 9.589l1.665 3.608 3.52-10.208-10.207 3.52 2.223 1.026a1 1 0 1 1-.838 1.816L1.081 7.283a1 1 0 0 1 .093-1.853l14.5-5a1 1 0 0 1 1.033.238z"
+                          fill="#111029"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts__field field">
+                  <div class="field__wrap">
+                    <select name="quetion" id="field__select" class="field__select">
+                      <option value="">What are you working on?</option>
+                      <option value="">What are you working on? 2</option>
+                    </select>
+                    <div class="field__icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18" fill="none" viewBox="0 0 12 18">
+                        <path fill-rule="evenodd"
+                          d="M6.664 1.128a1 1 0 0 0-1.329 0l-4.5 4a1 1 0 0 0 1.329 1.495L6 3.213l3.836 3.409a1 1 0 1 0 1.329-1.495l-4.5-4zm-4.5 11a1 1 0 1 0-1.329 1.495l4.5 4a1 1 0 0 0 1.329 0l4.5-4a1 1 0 0 0-1.329-1.495L6 15.537l-3.836-3.41z"
+                          fill="#111029"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts__field field">
+                  <div class="field__wrap">
+                    <textarea name="message" id="field__text" cols="30" rows="10" class="field__textarea"
+                      placeholder="Message"></textarea>
+                    <div class="field__icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
+                        <path fill-rule="evenodd"
+                          d="M.5 2.875a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3.532l-2.2 2.64a1 1 0 0 1-1.536 0l-2.2-2.64H2.5a2 2 0 0 1-2-2v-10zm15 0h-13v10h4a1 1 0 0 1 .768.36L9 15.313l1.732-2.078a1 1 0 0 1 .768-.36h4v-10zm-12 3a1 1 0 0 1 1-1h9a1 1 0 1 1 0 2h-9a1 1 0 0 1-1-1zm1 3a1 1 0 1 0 0 2h9a1 1 0 1 0 0-2h-9z"
+                          fill="#111029"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts__btn">
+                  <button class="btn btn__primary">
+                    <span class="btn__text">Let’s Talk</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" fill="none" viewBox="0 0 22 16">
+                      <path fill-rule="evenodd"
+                        d="M14.707.293a1 1 0 0 0-1.414 0 1 1 0 0 0 0 1.414L18.586 7H1a1 1 0 1 0 0 2h17.586l-5.293 5.293a1 1 0 0 0 1.414 1.414l7-7c.183-.183.28-.419.292-.659L22 8m-.076-.383c-.049-.118-.121-.228-.217-.324l-7-7m7.217 7.324c.048.115.075.241.076.374z"
+                        fill="#fff"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="contact__category heading-5">
+              Let’s connect
+            </div>
+            <div class="contacts__social">
+              <div class="contacts__box">
+                <a href="https://github.com/Anki-0" class="contacts__link" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="#9f9fa9"
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+
+                  <div class="contacts__text">GitHub</div>
+                </a>
+              </div>
+              <div class="contacts__box">
+                <a href="https://www.linkedin.com/in/ankit-singh-383995a9/" class="contacts__link" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path fill="#9f9fa9"
+                      d="M12 0c2.056 0 4 1.944 4 4h0v8c0 2.056-1.944 4-4 4h0-8c-2.056 0-4-1.944-4-4h0V4c0-2.056 1.944-4 4-4h0zm0 2H4c-.935 0-2 1.065-2 2h0v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2h0V4c0-.935-1.065-2-2-2h0zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068a.96.96 0 1 1 0 1.92.96.96 0 1 1 0-1.92z">
+                    </path>
+                  </svg>
+
+                  <div class="contacts__text">Dribbble</div>
+                </a>
+              </div>
+              <div class="contacts__box">
+                <a href="https://www.youtube.com/channel/UCfd4y7yPRbTS-rRIDtQG6QA" class="contacts__link"
+                  target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="#9f9fa9"
+                      d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                  </svg>
+
+                  <div class="contacts__text">Youtube</div>
+                </a>
+              </div>
+              <div class="contacts__box">
+                <a href="https://www.linkedin.com/in/ankit-singh-383995a9/" class="contacts__link" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="#9f9fa9"
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+
+                  <div class="contacts__text">Linkdin</div>
+                </a>
+              </div>
+            </div>
+            <div class="figures">
+              <div class="figures__preview"><img src="./img/content/figures-1.png" alt="FIGURE" class="figures__pic">
+              </div>
+              <div class="figures__preview"><img src="./img/content/figures-2.png" alt="FIGURE"
+                  class="figures__pic js-parallax" data-scale="1.6" data-orientation="up">
+              </div>
+              <div class="figures__preview"><img src="./img/content/figures-3.png" alt="FIGURE"
+                  class="figures__pic js-parallax" data-scale="1.3" data-orientation="up">
+              </div>
+              <div class="figures__preview"><img src="./img/content/figures-4.png" alt="FIGURE" class="figures__pic">
+              </div>
+              <div class="figures__preview"><img src="./img/content/figures-5.png" alt="FIGURE"
+                  class="figures__pic js-parallax" data-scale="2.3" data-orientation="down">
+              </div>
+              <div class="figures__preview"><img src="./img/content/figures-6.png" alt="FIGURE"
+                  class="figures__pic js-parallax" data-scale="2" data-orientation="up">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer__center center">
+          <div class="footer__body">
+            <a href="#" class="footer__logo">
+              <img src="./img/logo-empty.svg" alt="LOGO" class="footer__logo">
+            </a>
+            <div class="footer__wrap">
+              <div class="footer__title heading-1 mb-sm-2">You only have one chance to make a first impression.</div>
+              <div class="footer__info heading-4">Let’s make it an amazing one.</div>
+            </div>
+            <div class="footer__menu">
+              <a href="#" class="footer__link mb-sm">About Me</a>
+              <a href="#" class="footer__link mb-sm">Projects</a>
+              <a href="#" class="footer__link mb-sm">Contact</a>
+              <a href="#" class="footer__link mb-sm">Dribbble</a>
+              <a href="#" class="footer__link mb-sm">Instagram</a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__copyright">© 2021, Ankit Singh.</div>
+            <a href="#" class="footer__scroll">Back to top</a>
+          </div>
+        </div>
+        <div class="footer__bg">
+          <div class="footer__preview"><img src="/img/content/footer-cube-1.png" alt="CUBE"
+              class="footer__pic js-parallax" data-scale="1.5" data-orientation="down"></div>
+          <div class="footer__preview"><img src="/img/content/footer-cube-1.png" alt="CUBE"
+              class="footer__pic js-parallax" data-scale="1.8" data-orientation="up"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous"></script>
+<script src="./js/lib/simpleParallax.min.js"></script>
+<script src="/js/app.js"></script>
+
+</html>

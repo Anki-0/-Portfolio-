@@ -1,0 +1,54 @@
+.work__figure {
+  transition: all 0.4s;
+
+  &:first-child {
+    position: relative;
+    top: -7rem;
+  }
+
+  &:not(:first-child) {
+    position: absolute;
+  }
+
+  &:nth-child(2) {
+    top: 15.8%;
+    left: -10%;
+    z-index: 2;
+    width: 90%;
+  }
+
+  &:nth-child(3) {
+    top: 28.8%;
+    left: 39%;
+    z-index: 2;
+    width: 72%;
+  }
+
+  &:nth-child(4) {
+    top: 25%;
+    left: 13.4%;
+    z-index: 2;
+    width: 75%;
+  }
+
+  &:nth-child(5) {
+    top: 9.7%;
+    left: -3%;
+    z-index: 3;
+    width: 93%;
+  }
+
+  &:nth-child(6) {
+    top: 7.5%;
+    left: 37%;
+    z-index: 3;
+    width: 67%;
+  }
+
+  &:nth-child(7) {
+    top: 38%;
+    left: 31.3%;
+    z-index: 4;
+    width: 66%;
+  }
+}
